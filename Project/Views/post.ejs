@@ -1,0 +1,28 @@
+<%- include("Partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/main.css">
+
+<div class="w3-black" id="tour">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-teal w3-center w3-padding-32"> 
+            <span onclick="document.getElementById('ticketModal').style.display='none'" 
+           class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+            <h2 class="w3-wide "></i>Add Post</h2>
+          </header>
+          <form action="/post" method="POST">
+          <div class="w3-container">
+            <p><label> Add Title</label></p>
+            <input class="w3-input w3-border" type="text" name="TitleBox" placeholder="Add New Title">
+            <p><label> Add Post</label></p>
+            <input class="w3-input w3-border" type="text" name="AddPost" placeholder="Add Post">
+            <button type="submit" class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">POST <i class="fa fa-check"></i></button>
+            
+            
+          </div>
+        </form>
+        
+        
+        </div>
+   
+      </div>
+
+    <%- include("Partials/Footer.ejs") %>

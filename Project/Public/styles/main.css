@@ -1,0 +1,19 @@
+.title{
+    color: black;
+    text-align: center;
+    background-color: aqua;
+}
+.post{
+    color: black;
+    text-align: left;
+}
+
+.post_post{
+    color: white;
+    
+    width: 50%;
+}
+.post_button{
+    background-color: white;
+    color: black;
+}
